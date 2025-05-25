@@ -1,0 +1,133 @@
+body {
+  font-family: "Staatliches", cursive;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-family: "Staatliches", cursive;
+  font-size: 6rem;
+  padding: 3rem 0;
+  margin: 0;
+}
+
+p {
+  font-size: 2rem;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+form {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4rem;
+  background: white;
+  margin-bottom: 10rem;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 6px 4px 15px 0px rgba(0, 0, 0, 0.75);
+}
+
+#app p {
+  text-align: left !important;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#resultado p {
+  margin: 0;
+  padding: 2rem;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+#resultado p span {
+  font-weight: bold;
+}
+
+#resultado p:last-of-type {
+  border: none;
+}
+
+
+
+.sitio-web {
+  color: white;
+  display: block;
+  font-size: 4rem;
+  max-width: 1200px;
+  margin: 2rem auto;
+  text-decoration: none;
+}
+
+.sitio-web:hover {
+  color: white;
+}
+
+.texto-principal {
+  font-size: 1.6em;
+}
+
+.texto-secundario {
+  font-size: 1.6em;
+}
+
+
+/* Contenedor visual principal */
+.container {
+  background-color: #fff;
+  padding: 2rem 3rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  max-width: 1200px;
+  margin: 2rem auto;
+}
+
+/* Estilo del título */
+h1 {
+  font-family: "Staatliches", cursive;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Ajustes para etiquetas y selects */
+form label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+select.form-select {
+  font-size: 1.6rem;
+  padding: 0.6rem 1rem;
+}
+
+/* Resultados */
+#resultado {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+/* Tarjetas de resultados opcionales */
+.resultado-auto {
+  border: 1px solid #e1e1e1;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Estilo mejorado para etiquetas */
+form label {
+  font-size: 1.4rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
